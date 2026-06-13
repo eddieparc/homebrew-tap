@@ -1,8 +1,8 @@
 class AoeKo < Formula
   desc "Agent of Empires — Korean-localized web dashboard (W3A chrome + EN/KO switcher)"
   homepage "https://github.com/eddieparc/agent-of-empires"
-  url "https://github.com/eddieparc/agent-of-empires/archive/refs/tags/v1.11.0-ko.1.tar.gz"
-  sha256 "786d098681e57ead7d2016b68d746fb7bc2ba300b18c00722b4e1d1ffad02bd9"
+  url "https://github.com/eddieparc/agent-of-empires/archive/refs/tags/v1.11.0-ko.2.tar.gz"
+  sha256 "9d20e7c5833d6644105aaf9b2d334e28af09f021f2b4adde8d10e71c269a715f"
   license "MIT"
   head "https://github.com/eddieparc/agent-of-empires.git", branch: "feat/i18n-korean"
 
@@ -32,7 +32,7 @@ class AoeKo < Formula
   def caveats
     <<~EOS
       aoe-ko is the Korean-localized fork of Agent of Empires built from
-      branch feat/i18n-korean (tag v1.11.0-ko.1). It writes to the same
+      branch feat/i18n-korean (tag v1.11.0-ko.2). It writes to the same
       state directory as upstream `aoe` (~/.agent-of-empires/), so the
       two coexist and share sessions, tokens, and config.
 
